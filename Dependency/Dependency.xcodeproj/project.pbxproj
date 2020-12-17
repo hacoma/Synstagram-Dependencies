@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C840AC742536EEA40042B0CC /* LoginInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840AC732536EEA40042B0CC /* LoginInjectable.swift */; };
-		C840AC7D2536EEAC0042B0CC /* AlbumListInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840AC772536EEA80042B0CC /* AlbumListInjectable.swift */; };
+		C840AC742536EEA40042B0CC /* LoginDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840AC732536EEA40042B0CC /* LoginDependency.swift */; };
+		C840AC7D2536EEAC0042B0CC /* AlbumListDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840AC772536EEA80042B0CC /* AlbumListDependency.swift */; };
 		C873C0762536C30E0063B51A /* Login.h in Headers */ = {isa = PBXBuildFile; fileRef = C873C0742536C30E0063B51A /* Login.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C873C0832536C3250063B51A /* AlbumList.h in Headers */ = {isa = PBXBuildFile; fileRef = C873C0812536C3250063B51A /* AlbumList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C840AC732536EEA40042B0CC /* LoginInjectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInjectable.swift; sourceTree = "<group>"; };
-		C840AC772536EEA80042B0CC /* AlbumListInjectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListInjectable.swift; sourceTree = "<group>"; };
+		C840AC732536EEA40042B0CC /* LoginDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDependency.swift; sourceTree = "<group>"; };
+		C840AC772536EEA80042B0CC /* AlbumListDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListDependency.swift; sourceTree = "<group>"; };
 		C873C0722536C30E0063B51A /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C873C0742536C30E0063B51A /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
 		C873C0752536C30E0063B51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		C873C0882536C3330063B51A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C840AC732536EEA40042B0CC /* LoginInjectable.swift */,
+				C840AC732536EEA40042B0CC /* LoginDependency.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 		C873C08A2536C33F0063B51A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C840AC772536EEA80042B0CC /* AlbumListInjectable.swift */,
+				C840AC772536EEA80042B0CC /* AlbumListDependency.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C873C05B2536C2D90063B51A /* Build configuration list for PBXProject "Injectable" */;
+			buildConfigurationList = C873C05B2536C2D90063B51A /* Build configuration list for PBXProject "Dependency" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C840AC742536EEA40042B0CC /* LoginInjectable.swift in Sources */,
+				C840AC742536EEA40042B0CC /* LoginDependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C840AC7D2536EEAC0042B0CC /* AlbumListInjectable.swift in Sources */,
+				C840AC7D2536EEAC0042B0CC /* AlbumListDependency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +479,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C873C05B2536C2D90063B51A /* Build configuration list for PBXProject "Injectable" */ = {
+		C873C05B2536C2D90063B51A /* Build configuration list for PBXProject "Dependency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C873C0672536C2D90063B51A /* Debug */,
