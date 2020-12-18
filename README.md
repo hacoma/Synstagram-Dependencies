@@ -1,1 +1,1 @@
-# Synstagram-Injectable
+# Synstagram-Dependencies
